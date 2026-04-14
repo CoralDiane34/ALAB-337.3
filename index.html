@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temperature Converter</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 480px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    label,
+    button,
+    #result {
+      display: block;
+      margin-top: 1rem;
+    }
+    input {
+      width: 100%;
+      padding: 0.5rem;
+      font-size: 1rem;
+      box-sizing: border-box;
+    }
+    button {
+      padding: 0.75rem 1rem;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Temperature Converter</h1>
+  <label for="celsiusInput">Enter temperature in Celsius:</label>
+  <input id="celsiusInput" type="text" placeholder="e.g. 25">
+  <button id="convertBtn" type="button">Convert</button>
+  <div id="result"></div>
+  <script src="tempConverter.js"></script>
+</body>
+</html>
